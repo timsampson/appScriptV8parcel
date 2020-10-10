@@ -10,7 +10,9 @@ Next install parcel `npm i parcel -g` and parcel-plugin-inliner `npm i parcel-pl
 
 Once it is setup, run your build with `npx parcel build client/index.html --no-minify --no-source-maps  --no-cache`.  I used the live server extension to test if the styling and javascript worked as expected. 
 
-It includes the starter template for [Bootstrap 5](https://v5.getbootstrap.com/) with the sticky footer and the .devcontainer for Node and Javascript Projects for [Github Codespaces](https://docs.github.com/en/github/developing-online-with-codespaces).
+It includes the starter template for [Bootstrap 5](https://v5.getbootstrap.com/) with the sticky footer.  Instructions for importing it as a [Parcel Recipe](https://parceljs.org/recipes.html).
+
+A .devcontainer for Node and Javascript Projects for [Github Codespaces](https://docs.github.com/en/github/developing-online-with-codespaces).
 
 # References and Related Links
 I used the walkthrough [CLASP Web App, Google Apps Script, Parcel JS, Nodemon, Node JS Workflow Setup Tutorial](https://www.youtube.com/watch?v=Nf9ExEkySjo), as a guide, as always this author does a great job in stepping through the example.

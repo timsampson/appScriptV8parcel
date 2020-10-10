@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Create template app for mailing information from a spreadsheet.",
   "main": "build/index.html",
+  "scripts": {
+    "bld": "npx parcel build client/index.html --no-minify --no-source-maps  --no-cache && node util.js && clasp push"
+  },
   "devDependencies": {
     "@types/google-apps-script": "1.0.14",
     "typescript": "3.8.2"

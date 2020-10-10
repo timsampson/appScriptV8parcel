@@ -1,0 +1,26 @@
+{
+  "name": "clasp-web-starter",
+  "version": "1.0.0",
+  "description": "Create template app for mailing information from a spreadsheet.",
+  "main": "build/index.html",
+  "devDependencies": {
+    "@types/google-apps-script": "1.0.14",
+    "typescript": "3.8.2"
+  },
+  "keywords": [
+    "AppScript",
+    "Web",
+    "V8"
+  ],
+  "author": "Tim Sampson",
+  "license": "MIT",
+  "repository": "https://github.com/timsampson/appScriptV8starter/blob/master/package.json",
+  "private": true,
+  "dependencies": {
+    "node-forge": "^0.10.0",
+    "parcel": "^2.0.0-nightly.420",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-inliner": "^1.0.14",
+    "sass": "^1.27.0"
+  }
+}

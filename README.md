@@ -4,24 +4,32 @@
 
 This is a starter project for web app which uses Clasp and Parcel to deploy modern Javascript to Google's Apps Script (GAS) projects V8 engine. 
 
-Clone the repo, run `npm install`, install Clasp globally `npm install @google/clasp -g` and if prompted for a dependency, inquirer@^6.0.0,  run `npm install inquirer@^6.0.0 -g`.
+### Get Started
 
-'clasp login --no-localhost'
-`clasp create --type webapp  --title "Your Title" --rootDir ./appsscript`
+Clone the repo, run `npm install`, install Clasp globally `npm install @google/clasp -g` and if prompted for a dependency, inquirer@^6.0.0,  run `npm install inquirer@^6.0.0 -g`. 
+
+Log in to clasp `clasp login --no-localhost`
+
+Create an web app: `clasp create --type webapp  --title "Your Title" --rootDir ./appsscript`
+
 Next install Parcel, Parcel Bundler and the plugin to inline: `npm install --global parcel parcel-bundler parcel-plugin-inliner`.
 
-Once it is setup, run your build with `npx parcel build client/index.html --no-minify --no-source-maps  --no-cache`.  I used the live server extension to test if the styling and javascript worked as expected. 
+### Build and Deploy
+
+Once it is setup, run your build with `npx parcel build client/index.html --no-minify --no-source-maps --no-cache`.  I used the live server extension to test if the styling and javascript worked as expected. 
 
 To push your deploy, use the command `npm run build`
 
 Before you can view your webapp, you need an  initial deploy. One way is to run `clasp deploy --description "Initial Deploy"`, or you can change the description to anything you see fit.  You can also do this from the Apps Script dashboard, `clasp open` will get you to your project on the dashboard and from there you can use the menu options.
 
-It includes the starter template for [Bootstrap 5](https://v5.getbootstrap.com/) with the sticky footer.  Instructions for importing it as a [Parcel Recipe](https://parceljs.org/recipes.html).
+### Includes
+
+Starter template for [Bootstrap 5](https://v5.getbootstrap.com/) with the sticky footer.  Instructions for importing it as a [Parcel Recipe](https://parceljs.org/recipes.html).
 
 A .devcontainer for Node and Javascript Projects for [Github Codespaces](https://docs.github.com/en/github/developing-online-with-codespaces).
 
 # References and Related Links
-I used the walkthrough [CLASP Web App, Google Apps Script, Parcel JS, Nodemon, Node JS Workflow Setup Tutorial](https://www.youtube.com/watch?v=Nf9ExEkySjo), as a guide, as always this author does a great job in stepping through the example.
+I followed the walkthrough *CLASP Web App, Google Apps Script, Parcel JS, Nodemon, Node JS Workflow Setup Tutorial* [Watch on Youtube](https://www.youtube.com/watch?v=Nf9ExEkySjo), as a guide, as always this author does a great job in stepping through the example.
 
 [Command Line Interface using clasp](https://developers.google.com/apps-script/guides/clasp)
 

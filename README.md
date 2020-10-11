@@ -6,9 +6,15 @@ This is a starter project for web app which uses Clasp and Parcel to deploy mode
 
 Clone the repo, run `npm install`, install Clasp globally `npm install @google/clasp -g` and if prompted for a dependency, inquirer@^6.0.0,  run `npm install inquirer@^6.0.0 -g`.
 
-Next install parcel `npm i parcel -g` and parcel-plugin-inliner `npm i parcel-plugin-inliner -g`.
+'clasp login --no-localhost'
+`clasp create --type webapp  --title "Your Title" --rootDir ./appsscript`
+Next install Parcel, Parcel Bundler and the plugin to inline: `npm install --global parcel parcel-bundler parcel-plugin-inliner`.
 
 Once it is setup, run your build with `npx parcel build client/index.html --no-minify --no-source-maps  --no-cache`.  I used the live server extension to test if the styling and javascript worked as expected. 
+
+To push your deploy, use the command `npm run build`
+
+Before you can view your webapp, you need an  initial deploy. One way is to run `clasp deploy --description "Initial Deploy"`, or you can change the description to anything you see fit.  You can also do this from the Apps Script dashboard, `clasp open` will get you to your project on the dashboard and from there you can use the menu options.
 
 It includes the starter template for [Bootstrap 5](https://v5.getbootstrap.com/) with the sticky footer.  Instructions for importing it as a [Parcel Recipe](https://parceljs.org/recipes.html).
 
@@ -21,4 +27,3 @@ I used the walkthrough [CLASP Web App, Google Apps Script, Parcel JS, Nodemon, N
 
 [Clasp's GitHub TypeScript guide](https://github.com/google/clasp/blob/master/docs/typescript.md)
 
-[Parcel's docs](https://v2.parceljs.org/)

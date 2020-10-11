@@ -1,7 +1,7 @@
 {
   "name": "clasp-web-starter",
   "version": "1.0.0",
-  "description": "Create template app for mailing information from a spreadsheet.",
+  "description": "Google Apps Script Web Site Template with Bootstrap and Parcel for build and deploy.",
   "main": "build/index.html",
   "scripts": {
     "bld": "npx parcel build client/index.html --no-minify --no-source-maps  --no-cache && node util.js && clasp push"
@@ -17,7 +17,7 @@
   ],
   "author": "Tim Sampson",
   "license": "MIT",
-  "repository": "https://github.com/timsampson/appScriptV8starter/blob/master/package.json",
+  "repository": "https://github.com/timsampson/appScriptV8parcel",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.5.3",

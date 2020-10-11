@@ -1,8 +1,8 @@
-# Basic Web App [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
+# Apps Script Template with Bootstrap 5 and Parcel [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
 
-[Example Site URL](https://script.google.com/a/dishs.tp.edu.tw/macros/s/AKfycbyt9_UUFiIdbO9dX-pWMJBhYd810OdpxQq_16zTs2bi/devc)
+[Example Site URL](https://script.google.com/macros/s/AKfycbwZdZj7GoKXU2gEzTmdwt1DCLDouSG2FxNN_eu8b5K9AyWkadxY/exec)
 
-This is a starter project for web app which uses clasp and parcel to deploy modern Javascript to Google's Apps Script (GAS) projects V8 engine. 
+This is a starter project for web app which uses Clasp and Parcel to deploy modern Javascript to Google's Apps Script (GAS) projects V8 engine. 
 
 Clone the repo, run `npm install`, install Clasp globally `npm install @google/clasp -g` and if prompted for a dependency, inquirer@^6.0.0,  run `npm install inquirer@^6.0.0 -g`.
 

@@ -8,11 +8,9 @@ This is a starter project for web app which uses Clasp and Parcel to deploy mode
 
 Clone the repo, run `npm install`, install Clasp globally `npm install @google/clasp -g` and if prompted for a dependency, inquirer@^6.0.0,  run `npm install inquirer@^6.0.0 -g`. 
 
-Log in to clasp `clasp login --no-localhost`
+If you are using Codespaces, Log in to clasp `clasp login --no-localhost`.
 
 Create an web app: `clasp create --type webapp  --title "Your Title" --rootDir ./appsscript`
-
-Next install Parcel, Parcel Bundler and the plugin to inline: `npm install --global parcel parcel-bundler parcel-plugin-inliner`.
 
 ### Build and Deploy
 

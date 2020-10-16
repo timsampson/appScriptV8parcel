@@ -14,7 +14,7 @@ Delete the existing .clasp.json file and then create your starter web app: `clas
 
 ### Build and Deploy
 
-To push your deploy, use the command `npm run build`
+To build your app and push it using clasp, use the command `npm run build`. Your dist files will be deleted automatically with each run. Files that are pushed to Google Apps Script hosting can be found int the appscript folder.  Each build overwrites them. 
 
 Before you can view your webapp, you need an  initial deploy. One way is to run `clasp deploy --description "Initial Deploy"`, or you can change the description to anything you see fit.  You can also do this from the Apps Script dashboard, `clasp open` will get you to your project on the dashboard and from there you can use the menu options.
 

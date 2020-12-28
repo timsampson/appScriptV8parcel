@@ -6,7 +6,7 @@ This is a starter project for web app which uses Clasp and Parcel to deploy mode
 
 ### Get Started
 
-Clone the repo, run `npm install`, install Clasp globally `npm install @google/clasp -g` and if prompted for a dependency, inquirer@^6.0.0,  run `npm install inquirer@^6.0.0 -g`. 
+Clone the repo, run `npm install`, install Clasp globally `npm install @google/clasp -g` and if prompted for a dependency, inquirer@^6.0.0,  run `npm install inquirer@6.5.2 -g`.  If you use a codespace cloned from this repo, this is configured already, but you will still need to login once the codespace is created.
 
 If you are using Codespaces, Log in to clasp `clasp login --no-localhost`, othewise you can use `clasp login` at the terminal. Clasp will be installed when the Codespace is initially setup.  
 
